@@ -202,7 +202,7 @@ export default function ProviderAuthModal(props: ProviderAuthModalProps) {
           <div class="px-6 pt-6 pb-4 border-b border-gray-6/50 flex items-start justify-between gap-4">
             <div>
               <h3 class="text-lg font-semibold text-gray-12">Connect providers</h3>
-              <p class="text-sm text-gray-11 mt-1">Sign in to services you want OpenWork to use.</p>
+              <p class="text-sm text-gray-11 mt-1">Sign in to services you want MARL OS to use.</p>
             </div>
             <Button
               variant="ghost"
@@ -351,7 +351,7 @@ export default function ProviderAuthModal(props: ProviderAuthModalProps) {
                     </Show>
                     <div class="flex items-center justify-between gap-3">
                       <div class="text-[11px] text-gray-9">
-                        Keys are stored locally by OpenCode.
+                        Keys are stored locally by MARL OS.
                       </div>
                       <Button
                         variant="secondary"
@@ -372,7 +372,7 @@ export default function ProviderAuthModal(props: ProviderAuthModalProps) {
               <Show when={props.submitting}>{submittingLabel()}</Show>
             </div>
             <div class="text-xs text-gray-9">
-              OAuth opens in your browser. API keys are stored locally by OpenCode (not in your repo). Use{" "}
+              OAuth opens in your browser. API keys are stored locally by MARL OS (not in your repo). Use{" "}
               <span class="font-mono">/models</span> to pick a default.
             </div>
             <Button variant="ghost" onClick={handleClose} disabled={actionDisabled()}>

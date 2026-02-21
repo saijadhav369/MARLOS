@@ -8,15 +8,21 @@
   --dls-surface: #ffffff;
   --dls-sidebar: #f3f3f3;
   --dls-border: #e4e6eb;
-  --dls-accent: #2563eb;
-  --dls-accent-hover: #1d4ed8;
-  --dls-accent-rgb: 37 99 235;
+  --dls-accent: #5B5BEB;
+  --dls-accent-hover: #4A4AD4;
+  --dls-accent-rgb: 91 91 235;
   --dls-text-primary: #111827;
   --dls-text-secondary: #5f6773;
   --dls-hover: #f9fafb;
   --dls-active: #e5e5e7;
   --dls-radius: 8px;
   --dls-radius-lg: 16px;
+  /* MARL OS Brand Colors */
+  --marl-red: #E8524C;
+  --marl-orange: #F5A623;
+  --marl-cyan: #4ECDC4;
+  --marl-blue: #5B5BEB;
+  --marl-gold: #F5D03A;
 }
 
 [data-theme="dark"] {
@@ -24,9 +30,9 @@
   --dls-surface: #121212;
   --dls-sidebar: #1a1a1a;
   --dls-border: #262626;
-  --dls-accent: #3b82f6;
-  --dls-accent-hover: #2563eb;
-  --dls-accent-rgb: 59 130 246;
+  --dls-accent: #7B7BF0;
+  --dls-accent-hover: #5B5BEB;
+  --dls-accent-rgb: 123 123 240;
   --dls-text-primary: #ededed;
   --dls-text-secondary: #9ca3af;
   --dls-hover: #1f1f1f;

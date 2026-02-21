@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install)",
+      "Bash(npm install:*)",
+      "Bash(yay -S:*)",
+      "Bash(pacman -S:*)",
+      "Bash(go version:*)",
+      "Bash(opencode --version:*)",
+      "Bash(where:*)",
+      "Bash(echo:*)",
+      "Bash(go env:*)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}

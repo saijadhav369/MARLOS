@@ -5,15 +5,18 @@ type Props = {
   class?: string;
 };
 
-export default function OpenWorkLogo(props: Props): JSX.Element {
+export default function MarlOsLogo(props: Props): JSX.Element {
   const size = props.size ?? 24;
   return (
     <img
-      src="/openwork-logo.svg"
-      alt="OpenWork"
+      src="/marl-os-logo.svg"
+      alt="MARL OS"
       width={size}
       height={size}
       class={`inline-block ${props.class ?? ""}`}
     />
   );
 }
+
+// Backward compatibility alias
+export { MarlOsLogo as OpenWorkLogo };
